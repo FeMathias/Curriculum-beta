@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="logo">
+        <h1 id="felipe">FELIPE<span>MATHIAS</span></h1>
+        <div id="linha"></div>
+    </div>
+    <div id="description">
+      <h2>portfolio e informações pessoais</h2>
+      <div id="fill"></div>
+    </div>
+  </header>
+
+    <div class="myButtons">
+      <div class="btn-group" id="MatchingEntitiesButtons">
+        <button id="Button1" class="roundBtns" onclick="togglediv('NamesTable')" type="button"> currículo </button>
+        <button id="Button2" class="roundBtns" onclick="togglediv('PhoneTable')" type="button"> projetos </button>
+        <button id="Button3" class="roundBtns" onclick="togglediv('AddressTable')" type="button"> contato</button>
+      </div>
+    </div>
+<!-- começo das divs dinamicas-->
+<section>
+  <!-- div de curriculo-->
+  <div id="NamesTable" class="TableBody" style="display:none">
+    <h1 id="titledivdinamica">CURRICULUM</h1>
+    <p class="texto-divs">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, temporibus fugit reprehenderit consequatur a ipsa amet? Corporis aut consequatur aspernatur qui eum hic consectetur laudantium rem, soluta magnam odio expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos eligendi, optio rerum provident, delectus, veritatis fuga qui labore mollitia voluptates dignissimos ad voluptate cumque doloribus nesciunt placeat quis. Sint!</p> 
+  </div>
+
+  <!-- div de projetos-->
+  <div id="PhoneTable" class="TableBody" style="display:none">
+    <h1 id="titledivdinamica">PROJETOS</h1>
+    <p class="texto-divs"><a href=""><img src="images/blankroom.JPG" alt="projeto blankroom" class="projetos-img"></a></p>
+    <p class="texto-divs"><img src="images/blankroom.JPG" alt="projeto blankroom" class="projetos-img"></p>
+  
+  </div>
+
+  <!-- div de contato-->
+  <div id="AddressTable" class="TableBody" style="display:none">
+    <h1 id="titledivdinamica">CONTATOS</h1>
+    <section  id="contacts">
+      <ul>
+        <li class="lista-contatos"><img src="images/ig-icon.png" alt="IG Icon" width="30px"> <a href="https://www.instagram.com/femathiass" target="_blank">@femathiass</a></li>
+        <li class="lista-contatos" ><img src="images/mail-icon.png" alt="IG Icon" width="30px"> <a href="mailto:femathiass@gmail.com">femathiass@gmail.com</a></li>
+        <li class="lista-contatos"><img src="images/twitter-icon.png" alt="IG Icon" width="30px"> <a href="https://www.twitter.com/femathias" target="_blank">@femathias</a></li>
+        <li class="lista-contatos"><img src="images/in-icon.png" alt="IG Icon" width="30px"> <a href="https://www.linkedin.com/in/felipe-mathias-937349189/" target="_blank">@Felipe-Mathias</a></li>
+        <li class="lista-contatos"><img src="images/wpp-icon.png" alt="IG Icon" width="30px"> +55 48 991 154 664</li>
+      </ul>
+    </section>
+  </div>
+
+
+</section>
+
+<!-- fim das divs dinamicas-->
+
+  <footer>
+    <h3>SITE DESENVOLVIDO POR FELIPE MATHIAS | TODOS DIREITOS RESERVADOS</h3>
+  </footer>
+
+  <script src="script.js">
+
+
+  </script>
+</body>
+</html>
